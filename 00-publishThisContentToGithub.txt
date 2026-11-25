@@ -1,0 +1,10 @@
+cd /d C:\GitHome
+
+gh repo clone JohnRibbonwood/github-CreateRepo-Push-Pull
+cd github-CreateRepo-Push-Pull
+
+REM copy the guide files into this folder, then:
+
+git add .
+git commit -m "Add GitHub guides"
+git push -u origin main
